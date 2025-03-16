@@ -1,0 +1,86 @@
+body{
+  background: #000;
+  font-family: Carlito, serif;
+  padding-top: 70px;
+}
+
+h1{
+  position: fixed;
+  color: white;
+  background: black;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.7em;
+  z-index: 1000;
+  width: 100vw;
+}
+
+#RDR2{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#under-banner-container {
+  position: relative;
+}
+#under-banner
+{
+  max-width: 100%;
+  height: auto;
+}
+
+#under-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 23px;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.ceva-poze {
+  max-height: 500px;
+  padding: 0;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+.ceva-poze:hover {
+  transform: scale(1.1);
+
+}
+
+a {
+  padding: 0.5em 0; /* Add vertical spacing */
+  margin-top: 1em; /* Space between image and text */
+  text-align: center; /* Center the text */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+a:hover{
+  color: red;
+}
