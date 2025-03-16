@@ -25,6 +25,7 @@ h1{
 
 #under-banner-container {
   position: relative;
+  overflow: scroll;
 }
 #under-banner
 {
