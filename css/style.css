@@ -59,10 +59,10 @@ li {
 }
 
 .ceva-poze {
-  max-height: 500px;
+  max-height: 25em;
   padding: 0;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   transition: ease-in 0.2s;
   cursor: pointer;
 }
