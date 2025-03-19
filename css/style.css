@@ -51,19 +51,17 @@ ul{
   align-items: center;
   justify-content: center;
   margin: 1em;
+  padding: 0;
 }
 
 li {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 1em;
 }
 
 .ceva-poze {
   max-height: 25em;
-  padding: 0;
-  margin-left: 1em;
   transition: ease-in 0.2s;
   cursor: pointer;
 }
