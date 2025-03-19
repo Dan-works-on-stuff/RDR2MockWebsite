@@ -26,22 +26,23 @@ h1{
 #under-banner-container {
   position: relative;
   overflow: hidden;
+  background-image: url("img/under-banner.jpg");
+  margin: 0 auto;
+  max-width: 800px;
 }
-#under-banner
-{
-  max-width: 100%;
-  height: auto;
-}
+/*#under-banner*/
+/*{*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 #under-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
   color: white;
-  margin: 0;
+  margin: 0 1em;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
+
 }
 
 ul{
