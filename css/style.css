@@ -50,6 +50,7 @@ ul{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 1em;
 }
 
 li {
@@ -63,7 +64,6 @@ li {
   max-height: 25em;
   padding: 0;
   margin-left: 1em;
-  margin-right: 1em;
   transition: ease-in 0.2s;
   cursor: pointer;
 }
