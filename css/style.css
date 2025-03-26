@@ -51,19 +51,25 @@ ul{
   align-items: center;
   justify-content: center;
   margin: 1em;
-  padding: 0;
+  padding: 1em;
+  list-style-type: none;
 }
 
 li {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  flex: 1 1 300px;
+  max-width: 400px;
+  margin: 2.5rem;
 }
 
 .ceva-poze {
   max-height: 25em;
   transition: ease-in 0.2s;
   cursor: pointer;
+  width: 100%; /* Fill container width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Prevent distortion */
 }
 .ceva-poze:hover {
   transform: scale(1.1);
@@ -83,4 +89,9 @@ a {
 }
 a:hover{
   color: red;
+}
+
+footer p{
+  color: white;
+  text-align: center;
 }
